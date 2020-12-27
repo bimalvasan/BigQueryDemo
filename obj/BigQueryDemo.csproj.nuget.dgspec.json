@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/student_04_d456aba4a51d/BigQueryDemo/BigQueryDemo.csproj": {}
+  },
+  "projects": {
+    "/home/student_04_d456aba4a51d/BigQueryDemo/BigQueryDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/student_04_d456aba4a51d/BigQueryDemo/BigQueryDemo.csproj",
+        "projectName": "BigQueryDemo",
+        "projectPath": "/home/student_04_d456aba4a51d/BigQueryDemo/BigQueryDemo.csproj",
+        "packagesPath": "/home/student_04_d456aba4a51d/.nuget/packages/",
+        "outputPath": "/home/student_04_d456aba4a51d/BigQueryDemo/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/student_04_d456aba4a51d/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Google.Cloud.BigQuery.V2": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
